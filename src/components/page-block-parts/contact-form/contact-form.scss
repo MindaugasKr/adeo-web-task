@@ -1,0 +1,10 @@
+.contact-form {
+  &__title {
+    margin-bottom: 5px;
+  }
+  &__input, &__textArea {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 14px;
+  }
+}

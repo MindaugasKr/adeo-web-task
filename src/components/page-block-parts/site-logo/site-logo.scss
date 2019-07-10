@@ -1,0 +1,8 @@
+.site-logo {
+  font-weight: 300;
+  grid-area: site-logo;
+
+  &__bold {
+    font-weight: 900;
+  }
+}

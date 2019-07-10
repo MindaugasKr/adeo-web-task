@@ -1,0 +1,24 @@
+.theme-white-blue {
+  background-color: white;
+  color: color(blue-theme-background);
+  border-color: color(blue-theme-background);
+
+  & a:hover, & button:hover {
+    color: color(dark-gray);
+  }
+  & button:hover {
+    border-color: color(dark-gray);
+  }  
+
+  // For buttons elements that have this theme by themselves
+  &__btn:hover {
+    color: color(dark-gray);
+    border-color: color(dark-gray);
+  }
+
+  // In some browsers <a> elements do not get color property applied.
+  // Inconsistent accross different versions of same vendors.
+  & a {
+    color: color(blue-theme-background);
+  }  
+}

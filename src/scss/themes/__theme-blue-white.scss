@@ -1,0 +1,20 @@
+.theme-blue-white {
+  $color: white;
+
+  background-color: color(blue-theme-background);
+  color: $color;
+  border-color: white;
+
+  & a:hover, & button:hover {
+    color: color(dark-gray);
+  }
+  & button:hover {
+    border-color: color(dark-gray);
+  }
+
+  // In some browsers <a> elements do not get color property applied.
+  // Inconsistent accross different versions of same vendors.
+  & a {
+    color: $color;
+  }  
+}

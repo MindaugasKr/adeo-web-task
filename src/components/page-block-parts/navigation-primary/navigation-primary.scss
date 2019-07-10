@@ -1,0 +1,63 @@
+// Doesnt work without importing. 
+// Probably due to incorrect order in final CSS.
+@import '../../../scss/other/__colors.scss';
+@import '../../../scss/other/__functions.scss';
+
+.navigation-primary {
+  font-weight: 500;
+  grid-area: primary-navigation;
+
+  &__main-link-box {
+    display: inline-block;
+    margin: 0 15px;
+    position: relative;
+
+    &:hover .navigation-primary__drop-down {
+      display: block;
+    }
+    &:first-child {
+      margin-left: 0; 
+    }
+    &:last-child {
+      margin-right: 0; 
+    }    
+  }
+
+  &__main-link {
+    display: inline-block;
+    padding: 20px 0;
+  }
+
+  &__drop-down {
+    width: 150px;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: 700;
+    top: 55px;
+
+    // Center in respect to parent element
+    left: 50%;
+    transform: translateX(-50%);
+
+    // Arrow at the top
+    &:before {
+      content: '';
+      width: 0;
+      height: 0;
+      position: absolute;
+
+      border-width: 10px;
+      border-style: solid;
+      border-color: transparent transparent color(dark-gray) transparent;
+
+      // At the top
+      bottom: 100%;
+      // Center in respect to parent element
+      left: 50%;
+      transform: translateX(-50%);
+    }   
+  }
+  &__drop-down-link {
+    padding: 8px 20px;
+  } 
+}

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/adeo-web-task/static/css/main.14aa36aa.chunk.css",
+    "main.js": "/adeo-web-task/static/js/main.73a303f4.chunk.js",
+    "main.js.map": "/adeo-web-task/static/js/main.73a303f4.chunk.js.map",
+    "runtime~main.js": "/adeo-web-task/static/js/runtime~main.35f5f2e3.js",
+    "runtime~main.js.map": "/adeo-web-task/static/js/runtime~main.35f5f2e3.js.map",
+    "static/js/2.2c092657.chunk.js": "/adeo-web-task/static/js/2.2c092657.chunk.js",
+    "static/js/2.2c092657.chunk.js.map": "/adeo-web-task/static/js/2.2c092657.chunk.js.map",
+    "index.html": "/adeo-web-task/index.html",
+    "precache-manifest.0353b6dc454f9e2fb20a4022c29113e4.js": "/adeo-web-task/precache-manifest.0353b6dc454f9e2fb20a4022c29113e4.js",
+    "service-worker.js": "/adeo-web-task/service-worker.js",
+    "static/css/main.14aa36aa.chunk.css.map": "/adeo-web-task/static/css/main.14aa36aa.chunk.css.map",
+    "static/media/curiouscat.jpg": "/adeo-web-task/static/media/curiouscat.f17e88cc.jpg"
+  }
+}

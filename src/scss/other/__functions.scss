@@ -1,0 +1,4 @@
+// For easy access to colors in color map.
+@function color ($argument) {
+    @return map-get($colors, $argument);
+}

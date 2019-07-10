@@ -1,0 +1,65 @@
+.about-mini {
+
+  &__title {
+    font-weight: 900;
+    margin-bottom: 20px;
+
+    &--slim {
+      font-weight: 300;
+      margin-bottom: 30px;
+    }    
+  }
+  &__p {
+    margin: 16px 0;
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+      'b1 b2'
+      'b1 b3';
+
+    padding: 80px 20px 50px;
+  }
+
+  &__block-1 {
+    grid-area: b1;
+    padding-right: 60px;
+  }
+  &__block-2 {
+    grid-area: b2;
+    margin-left: 25px;
+  }
+  &__block-3 {
+    color: black;
+    background-color: white;
+    grid-area: b3;
+    margin-top: 20px;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  &__block-3-content {
+    width: calc(50% - 40px);
+  }  
+}
+
+@media screen and (max-width: 600px) {
+  .about-mini {
+
+    &__content {
+      display: block;
+    }
+
+    &__block-2 {
+      margin-left: 0;
+    }
+    
+    &__block-3-content {
+      width: calc(50% - 5px);
+    }    
+  }  
+}

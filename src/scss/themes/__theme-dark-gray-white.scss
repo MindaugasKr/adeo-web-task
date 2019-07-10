@@ -1,0 +1,17 @@
+.theme-dark-gray-white {
+  $color: white;
+
+  color: $color;
+  background-color: color(dark-gray);
+
+  & a:hover {
+    color: color(dark-gray);
+    background-color: white;
+  }
+
+  // In some browsers <a> elements do not get color property applied.
+  // Inconsistent accross different versions of same vendors.
+  & a {
+    color: $color;
+  }
+}

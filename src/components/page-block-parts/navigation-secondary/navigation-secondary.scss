@@ -1,0 +1,11 @@
+.navigation-secondary {
+  font-size: 14px;
+  font-weight: 300;
+  grid-area: secondary-navigation;
+  padding: 15px 0;
+
+  &__divider {
+    display: inline-block;
+    padding: 0 8px;
+  }
+}

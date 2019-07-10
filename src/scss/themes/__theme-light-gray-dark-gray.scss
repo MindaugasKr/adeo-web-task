@@ -1,0 +1,10 @@
+.theme-light-gray-dark-gray {
+  color: color(dark-gray);
+  background-color: color(light-gray);
+
+  // In some browsers <a> elements do not get color property applied.
+  // Inconsistent accross different versions of same vendors.
+  & a {
+    color: color(dark-gray);
+  }  
+}
